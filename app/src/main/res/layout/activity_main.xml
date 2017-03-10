@@ -29,12 +29,25 @@
         android:layout_marginTop="20dp"/>
 
     <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/key" android:textSize="40sp" android:layout_height="70dp"
+        android:gravity="center"
+        android:hint="@string/textview"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/us" android:layout_height="30dp" android:textSize="20sp"/>
+    <TextView
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_height="30dp" android:id="@+id/uk" android:layout_width="match_parent"/>
+    <TextView
 
         android:textSize="20sp"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView1"
         android:gravity="center"
-        android:hint="@string/textview"
         android:layout_marginTop="20dp"/>
+
 </LinearLayout>
